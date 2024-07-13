@@ -96,7 +96,7 @@ body{
     
 }
 .pakna{
-    border:1px solid red;
+    
     background-color: bisque;
 }
 .taka{
@@ -184,4 +184,60 @@ body{
 }
 .avareg{
     margin-top: 15px;
+}
+/* donate plan end */
+
+/* live donation start */
+.live-donation{
+    width:90%;
+    height:300px;
+    
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:100px;
+
+}
+.live-content{
+    width:45%;
+    height:300px;
+    
+}
+.live-pic{
+    width:45%;
+    height:300px;
+    
+}
+.live-donation{
+    display:flex;
+    gap:40px;
+}
+.live-title{
+    color: rgb(18, 18, 18);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.live-subscription{
+    color: rgb(112, 112, 112);
+
+font-size: 16px;
+font-weight: 400;
+margin-top:15px;
+margin-bottom:15px;
+
+}
+.live-pic img{
+    width:100%;
+    height:300px;
+}
+.survive{
+    width:90%;
+    height:300px;
+    
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    display:flex;
+    gap:20px;
+
 }
