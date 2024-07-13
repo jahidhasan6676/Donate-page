@@ -1,0 +1,58 @@
+/* font family style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+/* font family style end */
+
+/* universal elements */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* shared button */
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    padding:9px 8px 9px 8px;
+    border:none;
+
+}
+/* donate-container style start */
+.donate-container{
+    width:100%;
+    height:600px;
+    
+    margin:0 auto;
+    background-image:linear-gradient(0.00deg, rgb(18, 18, 18),rgba(18, 18, 18, 0) 100%),url(../images/donation1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.donate-title{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.donate-subscription{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.donate-content{
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap:25px;
+    text-align: center;
+    margin-top:50px;
+}
